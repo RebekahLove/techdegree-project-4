@@ -4,11 +4,14 @@
 /* ============================================= */
 
 * {
-    font-family: 'Lato', sans-serif;
-    color: #777;
     box-sizing: border-box;
   }
-  
+
+body {
+    color: $color-main-font;
+    font-family: $font-stack-primary;   
+}
+
   p {
     line-height: 1.45em;
   }

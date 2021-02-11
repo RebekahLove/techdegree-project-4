@@ -376,17 +376,21 @@ template {
 /* ============================================= */
 /* line 6, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_base.scss */
 * {
-  font-family: 'Lato', sans-serif;
-  color: #777;
   box-sizing: border-box;
 }
 
-/* line 12, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_base.scss */
+/* line 10, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_base.scss */
+body {
+  color: #777;
+  font-family: "Lato", sans-serif;
+}
+
+/* line 15, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_base.scss */
 p {
   line-height: 1.45em;
 }
 
-/* line 16, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_base.scss */
+/* line 19, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_base.scss */
 a {
   text-decoration: none;
 }
