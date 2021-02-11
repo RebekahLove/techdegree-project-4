@@ -395,4 +395,36 @@ a {
   text-decoration: none;
 }
 
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+/* line 27, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_base.scss */
+.headline-primary {
+  color: #58e1c1;
+  margin-left: 10px;
+}
+
+/* line 32, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_base.scss */
+.headline-secondary {
+  font-weight: 300;
+  color: #777;
+}
+
+/* line 37, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_base.scss */
+.link {
+  color: #51ddfc;
+  font-weight: 700;
+}
+
+/* line 42, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_base.scss */
+.blockquote {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid #58e1c1;
+  border-radius: 5px;
+}
+
 /*# sourceMappingURL=styles.css.map */
