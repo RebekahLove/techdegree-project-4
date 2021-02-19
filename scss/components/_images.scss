@@ -1,19 +1,24 @@
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
-  
+
+%img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .img {
-  @include img-all;
   &-logo {
-    @extend .img;
+    @extend %img;
   }
   &-avatar {
-    @extend .img;
+    @extend %img;
     @include img-avatar-frame;
     max-height: 100%;
   }
   &-frame {
-    @extend .img;
+    @extend %img;
     @include img-avatar-frame;
     padding: 13px;
     border: 1px solid $color-img-brdr;
