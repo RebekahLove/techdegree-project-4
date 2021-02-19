@@ -3,16 +3,17 @@
 /* ============================================= */
   
 .img {
+  @include img-all;
   &-logo {
-    @include img-all;
+    @extend .img;
   }
   &-avatar {
-    @include img-all;
+    @extend .img;
     @include img-avatar-frame;
     max-height: 100%;
   }
   &-frame {
-    @include img-all;
+    @extend .img;
     @include img-avatar-frame;
     padding: 13px;
     border: 1px solid $color-img-brdr;

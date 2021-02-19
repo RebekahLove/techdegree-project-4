@@ -524,28 +524,22 @@ a {
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
-/* line 6, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/components/_images.scss */
-.img-logo {
+/* line 5, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/components/_images.scss */
+.img, .img-logo, .img-avatar, .img-frame {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 9, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/components/_images.scss */
+/* line 10, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/components/_images.scss */
 .img-avatar {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 10px;
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 14, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/components/_images.scss */
+/* line 15, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/components/_images.scss */
 .img-frame {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 10px;
   max-width: 100%;
   padding: 13px;
