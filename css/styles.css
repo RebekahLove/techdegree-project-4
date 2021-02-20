@@ -377,20 +377,16 @@ template {
 /* line 6, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_typography.scss */
 * {
   box-sizing: border-box;
-}
-
-/* line 10, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_typography.scss */
-body {
   color: #777;
   font-family: "Lato", sans-serif;
 }
 
-/* line 15, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_typography.scss */
+/* line 13, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_typography.scss */
 p {
   line-height: 1.45em;
 }
 
-/* line 19, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_typography.scss */
+/* line 17, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_typography.scss */
 a {
   text-decoration: none;
 }
@@ -398,25 +394,25 @@ a {
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
-/* line 28, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_typography.scss */
+/* line 26, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_typography.scss */
 .headline-primary {
   color: #58e1c1;
   margin-left: 10px;
 }
 
-/* line 32, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_typography.scss */
+/* line 30, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_typography.scss */
 .headline-secondary {
   font-weight: 300;
   color: #777;
 }
 
-/* line 38, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_typography.scss */
+/* line 36, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_typography.scss */
 .link {
   color: #51ddfc;
   font-weight: 700;
 }
 
-/* line 43, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_typography.scss */
+/* line 41, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/base/_typography.scss */
 .blockquote {
   font-size: 1.5em;
   font-weight: 300;
@@ -663,7 +659,7 @@ a {
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
+@media (min-width: ("bp": 768px)) {
   /* line 5, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/components/_media-queries.scss */
   .container {
     max-width: 1400px;
