@@ -659,7 +659,7 @@ a {
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: ("bp": 768px)) {
+@media (min-width: 768px) {
   /* line 5, ../../../OneDrive/Desktop/Coding Projects/techdegree-project-4/scss/components/_media-queries.scss */
   .container {
     max-width: 1400px;
